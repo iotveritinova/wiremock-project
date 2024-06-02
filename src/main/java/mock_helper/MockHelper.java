@@ -14,7 +14,6 @@ public class MockHelper {
 
     public static void deleteMocks(HashSet<String> setForDelete){
         for (String s:setForDelete){
-            System.out.println(s);
             given().delete(s);
         }
         setForDelete.clear();

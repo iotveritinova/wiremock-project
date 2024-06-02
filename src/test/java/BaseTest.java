@@ -2,7 +2,7 @@ import io.restassured.response.Response;
 import mock_helper.MockHelper;
 import mock_helper.MockUrlSelector;
 import models.MockModel;
-import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 
 import java.util.HashSet;
 
@@ -22,7 +22,7 @@ public class BaseTest {
         MOCKS_SET.add(url+"/"+mockId);
     }
 
-    @AfterMethod
+    @AfterSuite
     public void cleanup(){
         MockHelper.deleteMocks(MOCKS_SET);
     }
