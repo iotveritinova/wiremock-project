@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class MockUrlSelector {
 
-    public static String MockUrlSelector(ModelEnum mockEnum) throws IllegalAccessException {
+    public static String mockUrlSelector(ModelEnum mockEnum) throws IllegalAccessException {
         Map<UrlEnum, String> mapOfProperties = ConfigQa.
                 getInstance().getMapOfProperties();
         switch (mockEnum) {
