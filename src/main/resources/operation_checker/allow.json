@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/check"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "result": "OK",
+      "permission": "ALLOW"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

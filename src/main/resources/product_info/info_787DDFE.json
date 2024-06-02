@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/get/product/info",
+    "headers": {
+      "productId": {
+        "equalTo": "787DDFE"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "card": "CREDIT_CARD",
+      "number": "45344898000000018219",
+      "balance": 100,
+      "currency": "RUB",
+      "creditLimit": 10000,
+      "status": "BankStatus.Active"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

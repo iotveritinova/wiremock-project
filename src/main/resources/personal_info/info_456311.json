@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/get/personal/info",
+    "headers": {
+      "clientId": {
+        "equalTo": "456311"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": {
+      "phone": "+78908723871",
+      "address": "Москва,д.40",
+      "name": "Рулон",
+      "lastName": "Обоев"
+    },
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
